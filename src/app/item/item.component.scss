@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35px;
+  background: white;
+  color: #878786;
+
+  border-left: 5px solid #fa7121;
+}
+
+.cont-svg {
+  margin-right: 10px;
+}
+
+.item-text {
+  margin-left: 5px;
+}
+
+

@@ -1,0 +1,11 @@
+
+
+
+
+<div class="container">
+  <app-item
+    *ngFor="let item of dataService.data"
+    [dats]="item"
+    (outItem)="delete($event)"
+  ></app-item>
+</div>
